@@ -29,6 +29,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         if textField.text == pasCorrect {
             label.text = "Correct password"
+        } else {
+            label.text = "Incprrect password!"
         }
         
         return true
